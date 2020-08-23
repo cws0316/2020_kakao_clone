@@ -23,7 +23,7 @@
 body {
   font-family: "Open sans";
   color: whitesmoke;
-  background-color: rgb(26, 25, 25);
+  background-color: black;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
