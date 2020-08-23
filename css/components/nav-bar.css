@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   bottom: 0;
-  background-color: #f9f9fa;
+  background-color: #1e1e22;
   padding: 15px 50px;
   width: 100%;
   box-sizing: border-box;
@@ -12,7 +12,10 @@
   justify-content: space-between;
 }
 .nav__link {
-  color: #2e363e;
+  color: white;
+}
+
+.nav__link:last-child {
   position: relative;
 }
 @keyframes notificationAnimation {
@@ -20,24 +23,22 @@
     transform: none;
   }
   50% {
-    transform: translateY(10px) rotateY(180deg);
+    transform: translateY(5px) rotateY(180deg);
   }
   100% {
     transform: none;
   }
 }
 .nav__notification {
+  font-size: 15px;
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 15px;
+  bottom: 15px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__dot {
   color: tomato;
   font-size: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 30px;
   bottom: 27px;

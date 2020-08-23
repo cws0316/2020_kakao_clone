@@ -6,17 +6,18 @@
 }
 .recommended-friends__title {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grey);
 }
 .recommended-friends span {
   display: block;
   text-align: center;
   margin: 100px 0px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grey);
 }
 .open-chat__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   opacity: 0.7;
   margin-bottom: 25px;
 }
@@ -55,10 +56,10 @@
   width: 1.5px;
   height: 15px;
   margin: 0px 5px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: white;
 }
 .open-post__member-status {
-  color: #ffb0e0;
+  color: #ffe90e;
 }
 .open-post__photo {
   position: relative;
@@ -91,7 +92,7 @@
   }
   50% {
     color: tomato;
-    transform: scale(3);
+    transform: scale(2);
   }
   100% {
     color: white;
@@ -100,5 +101,5 @@
 }
 .open-post__heart-count:hover i {
   will-change: transform;
-  animation: heartBeat 1s linear infinite;
+  animation: heartBeat 0.5s linear infinite;
 }
